@@ -9,7 +9,7 @@ documents or other files using the ajax method, the javascript library's query v
   <div class="row">
     <div class="col-md-6">
       <div class="form-group">
-        <label for="">ID Pekerja</label>
+        <label for="">Employee ID</label>
         <input type="text" id="employee" class="form-control" placeholder="Ketikan ID anda..">
       </div>
     </div>
