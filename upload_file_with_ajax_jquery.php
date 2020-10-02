@@ -1,6 +1,7 @@
 <!--
 Tutorial on how to upload files that can be in the form of images,
 documents or other files using the ajax method, the javascript library's query version.
+#hacktoberfest2020
 -->
 
  <!-- don't forget enctype="multipart/form-data" -->
