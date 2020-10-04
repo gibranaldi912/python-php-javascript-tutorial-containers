@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dark Mode</title>
+    <!-- i'm use jquery js library to build it -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" charset="utf-8"></script>
+    <style media="screen">
+      html, button{
+        font-family:monospace;
+      }
+    </style>
+  </head>
+  <body style="background:#eee">
+    <h1 style="text-align:center;">Hello Dude!
+      <br>
+       <button type="button" name="button" id="btn" style="margin-top: 20px;padding:7px;background:#282828;color:white;border: 2px solid #282828;border-radius:5px;font-weight:bold;font-size:17px">Dark Mode</button>
+     </h1>
+  </body>
+</html>
+<!-- aldipraddana -->
+<script type="text/javascript">
+  $('#btn').on('click', function () {
+    if ($(this).html() == 'Dark Mode') {
+      $("body").css({
+        background: "#282828",
+        color: "white",
+      })
+      $("button").css({
+        border: "1.5px solid white",
+      })
+      $(this).html(`Normal Mode`)
+    }else {
+      $("body").css({
+        background: "#eee",
+        color: "#282828",
+      })
+      $("button").css({
+        border: "1.5px solid white",
+      })
+      $(this).html(`Dark Mode`)
+    }
+  })
+</script>
