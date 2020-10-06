@@ -1,4 +1,6 @@
 <?php
+// this is totorial about how to find item of array multidimensi by value
+
 $data = [
   [
     'nama' => 'ucup',
